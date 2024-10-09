@@ -1,0 +1,7 @@
+project(Reconstruct)
+cmake_minimum_required (VERSION 2.6)
+find_package(CGAL QUIET COMPONENTS Core )
+include( ${CGAL_USE_FILE} )
+include_directories(${CGAL_INCLUDE_DIR})
+add_executable(Reconstruct reconstruct.cpp)
+target_link_libraries(Reconstruct ${CGAL_LIBRARIES} ${CGAL_3RD_PARTY_LIBRARIES})                        
