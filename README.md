@@ -43,7 +43,6 @@ Some exercises and projects require Python and relevant image processing librari
    ```bash
    conda activate ima
    ```
-
 4. Launch Jupyter Notebook (if required for exercises):
    ```bash
    jupyter notebook
